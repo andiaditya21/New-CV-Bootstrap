@@ -1,9 +1,11 @@
 body {
     height: 1000px;
+    background-color: rgb(41, 41, 41);
+    padding-top: 100px;
 }
 
-.custom-nav {
-    background-color: rgb(41, 41, 41);
+.navbar-toggler {
+    background-color: white;
 }
 
 nav ul li {
