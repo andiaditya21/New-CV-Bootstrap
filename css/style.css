@@ -6,6 +6,7 @@ body {
     height: 1000px;
     background-color: rgb(41, 41, 41);
     padding-top: 80px;
+    font-family: 'Montserrat', Arial, serif;
 }
 
 /* navbar */
@@ -50,6 +51,11 @@ nav li.active a:hover {
 .sosmed img {
     width: 25px;
     height: 25px;
+    opacity: .3;
+}
+
+.sosmed a:hover img {
+    opacity: 1;
 }
 /* akhir jumbotron */
 
@@ -77,3 +83,24 @@ aside.skill h3 {
     width: 80px;
 }
 /* akhir work experience, education, skill */
+
+/* contact */
+form {
+    background-color: #71C9CE;
+}
+
+form h3,
+form p {
+    text-align: center;
+}
+/* akhir contact */
+
+/* footer */
+footer {
+    font-family: 'Lora', Arial, serif;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+/* akhir footer */
