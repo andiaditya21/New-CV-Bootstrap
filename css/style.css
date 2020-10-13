@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 1000px;
     background-color: rgb(41, 41, 41);
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
+/* navbar */
 .navbar-toggler {
     background-color: white;
 }
@@ -23,4 +28,27 @@ nav ul li.active a {
 nav li.active a:hover {
     color: white !important;
 }
+/* akhir navbar */
 
+
+/* jumbotron */
+.jumbotron {
+    /* margin-top: 65px; */
+    padding-top: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+.jumbotron h1 {
+    letter-spacing: 4px;
+    font-size: 1.5em;
+}
+
+.jumbotron p {
+    line-height: 25px;
+}
+
+.sosmed img {
+    width: 25px;
+    height: 25px;
+}
+/* akhir jumbotron */
