@@ -52,3 +52,22 @@ nav li.active a:hover {
     height: 25px;
 }
 /* akhir jumbotron */
+
+/* work experience */
+section.work h3,
+section.educate h3 {
+    color: #ff9850;
+    border-bottom: 1px solid grey;
+    padding-top: 80px;
+} 
+
+.work h5,
+.educate h5 {
+    margin-bottom: 15px;
+    font-size: 0.83em;
+}
+
+.work h6,
+.educate h6 {
+    font-size: 0.83em;
+}
