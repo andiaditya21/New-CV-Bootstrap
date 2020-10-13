@@ -1,0 +1,24 @@
+body {
+    height: 1000px;
+}
+
+.custom-nav {
+    background-color: rgb(41, 41, 41);
+}
+
+nav ul li {
+    font-family: 'Lora', Arial, serif;
+}
+
+nav li a:hover {
+    background-color: #FF9800;
+}
+
+nav ul li.active a {
+    color: #FF9800 !important;   
+}
+
+nav li.active a:hover {
+    color: white !important;
+}
+
