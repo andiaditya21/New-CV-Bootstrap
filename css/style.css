@@ -53,9 +53,10 @@ nav li.active a:hover {
 }
 /* akhir jumbotron */
 
-/* work experience */
+/* work experience, education, skill */
 section.work h3,
-section.educate h3 {
+section.educate h3,
+aside.skill h3 {
     color: #ff9850;
     border-bottom: 1px solid grey;
     padding-top: 80px;
@@ -71,3 +72,8 @@ section.educate h3 {
 .educate h6 {
     font-size: 0.83em;
 }
+
+.skill .some-skill img {
+    width: 80px;
+}
+/* akhir work experience, education, skill */
