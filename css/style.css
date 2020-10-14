@@ -1,6 +1,6 @@
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 body {
     height: 1000px;
@@ -69,7 +69,7 @@ section.educate h3,
 aside.skill h3 {
     color: #ff9850;
     border-bottom: 1px solid grey;
-    padding-top: 80px;
+    padding-top: 100px;
 } 
 
 .work h5,
